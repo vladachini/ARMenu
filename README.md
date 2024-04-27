@@ -1,2 +1,0 @@
-# ARMenu
-ARMenu Project
