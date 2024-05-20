@@ -1,0 +1,47 @@
+/* MenuItemsPage.css */
+.container {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.listItem {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.info {
+    flex: 1;
+}
+
+.button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    font-weight: normal;
+}

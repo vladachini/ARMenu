@@ -1,0 +1,37 @@
+/* MenusPage.css */
+.container {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.listItem {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    display: block; 
+    padding: 10px; 
+    transition: color 0.3s ease;
+    flex-grow: 1;
+}
+
+/* .listItem:hover,
+.listItem:hover .link {
+    background-color: #007BFF; 
+    color: white; 
+} */
