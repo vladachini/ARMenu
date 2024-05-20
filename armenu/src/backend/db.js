@@ -1,12 +1,12 @@
-const Pool = require("pg").Pool;
+const Pool = require('pg').Pool;
 
 //TODO: Change this to use env file for security
 const pool = new Pool({
-    user: "postgres",
-    password: "kovacina2002",
-    database: "ARMenu",
-    host: process.env.WINDOWS_HOST, // Change to your PostgreSQL server host
-    port: 5432, // Default PostgreSQL port
-  });
+	user: process.env.DB_USER,
+	host: process.env.WINDOWS_HOST, // Change to your PostgreSQL server host
+	database: process.env.DB_NAME,
+	password: process.env.DB_PASSWORD,
+	port: process.env.DB_PORT,
+});
 
-  module.exports = pool;
+module.exports = pool;
